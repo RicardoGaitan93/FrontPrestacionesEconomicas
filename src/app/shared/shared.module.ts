@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import * as fromComponents from './components';
-import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
-  declarations: [...fromComponents.components, SidenavComponent],
+  declarations: [...fromComponents.components, NavbarComponent],
   imports: [
     CommonModule,
     FormsModule
